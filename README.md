@@ -68,7 +68,7 @@ Visit http://127.0.0.1:8000/admin/.
 Log in with the superuser credentials created earlier.
 
 Usage
-Visit http://127.0.0.1:8000/ to access the Auth-System.
+Visit http://127.0.0.1:8000/ to access the Auth-System..
 
 
 
