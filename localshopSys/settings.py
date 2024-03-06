@@ -98,6 +98,8 @@ WSGI_APPLICATION = 'localshopSys.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# Production db 
+
 DB_NAME = config('DB_NAME')
 DB_USER = config('DB_USER')
 DB_PASSWORD = config('DB_PASSWORD')
@@ -115,6 +117,7 @@ DATABASES = {
     }
 }
 
+# Local db
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
@@ -125,7 +128,7 @@ DATABASES = {
 #         'PORT': 5432
 #     }
 # }
-#
+
 
 
 
